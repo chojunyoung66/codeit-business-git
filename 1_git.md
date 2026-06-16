@@ -35,3 +35,7 @@
 - git checkout [커밋아이디]
   - HEAD 가 특정 커밋을 가르킨다
   - HEAD 가 브랜치에서 이탈(detached)했다.
+
+7. 깃 브렌치를 만들자
+- git branch [branch_name]
+- git branch -D [branch_name]
