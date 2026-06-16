@@ -21,4 +21,17 @@
 - git status
 
 4. 현재 프로젝트 폴더 상태를 저장
-- git add [스테이징에 추가하고 싶은 파일 또는 폴더햣 ]
+- git add [스테이징에 추가하고 싶은 파일 또는 폴더 ]
+- git add .
+- git commit -m 메세지
+
+5. 저장된 기록을 확인
+- git log
+
+6. 다른 저장 기록으로 이동
+- checkout : HEAD를 이동
+- git checkout [브랜치 이름]
+  - HEAD 가 브랜치를 가리킨다
+- git checkout [커밋아이디]
+  - HEAD 가 특정 커밋을 가르킨다
+  - HEAD 가 브랜치에서 이탈(detached)했다.
